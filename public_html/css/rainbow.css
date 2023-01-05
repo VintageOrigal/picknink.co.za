@@ -1,0 +1,32 @@
+#menu {
+	animation-name: rainbow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	padding: 0px;
+	color: black;
+}
+
+@keyframes rainbow {
+	0% {
+		background-color: blue;
+	}
+	16.6% {
+		background-color: red;
+	}
+	33.2% {
+		background-color: green;
+	}
+	49.8% {
+		background-color: yellow;
+	}
+	66.4% {
+		background-color: green;
+	}
+	83% {
+		background-color: red;
+	}
+	100% {
+		background-color: blue;
+	}
+}
+

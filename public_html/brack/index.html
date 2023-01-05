@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pick 'n Ink | Brackenfell</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+	<script type="text/javascript" src="../js/jquery-3.6.1.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-K9WQ2W1TD3"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
+	<script type="text/javascript" src="../js/google.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="head">
+			<center><div id="logo"><img src="../img/logo.jpg" alt="Pick 'n Ink" width="729px" height="200px"></div></center>
+			<br>
+		</div>
+		<div class="mmenu">
+			<ul class="navbar" id="menu">
+				<li>
+					<a href="../index.html">Home</a>
+				</li>
+				<li class="dropdown">
+					<a href="prd.html" class="dropbtn">Products</a>
+					<div class="dropdown-content">
+						<a href="../pro/brother/index.html">Brother</a>
+						<a href="../pro/canon/index.html">Canon</a>
+						<a href="../pro/epson/index.html">Epson</a>
+						<a href="../pro/hp/index.html">HP</a>
+						<a href="../pro/samsung/index.html">Samsung</a>
+					</div>				
+				</li>
+				<li class="dropdown">
+					<a class="active" href="#" class="dropbtn">Contact Us</a>
+					<div class="dropdown-content">
+						<a href="index.html">Brackenfell</a>
+						<a href="../branch/express.html">Express</a>
+						<a href="../str/index.html">Strand</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">Blog</a>
+					<a href="#">Recycle &amp; Save</a>
+				</li>
+			</ul>
+		</div>
+		<div class="header">
+			<h1 class="glow">Pick 'n Ink Brackenfell</h1>
+			<h1>Contact Us</h1>
+		</div>
+		<div class="required">
+			<p><strong>All fields are required</strong></p>
+		</div>
+		<center><div class="gform">
+			<form method="POST" name="contactform" action="https://script.google.com/macros/s/AKfycbyzR79HJ7tov1-Tuvty9aXIvtJ_faloiwhqaIKxh0ssu0OTqUafR7c4JE1m5wqUToEEdA/exec">
+				<label for="fname">First Name:</label>
+				<input type="text" id="fname" name="FirstName" placeholder="Your name...">
+				<label for="sname">Last Name:</label>
+				<input type="text" id="sname" name="LastName" placeholder="Your surname...">
+				<label for="phone">Phone Number:</label>
+				<input type="text" id="phone" name="PhoneNumber" placeholder="Your phone number...">
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="Email" placeholder="Your Email address....">
+				<label for="province">Province</label>
+				<select id="province" name="Province">
+					<option value="Northern_Cape">Northern Cape</option>
+					<option value="Eastern_Cape">Eastern Cape</option>
+					<option value="Free_State">Free State</option>
+					<option value="Western_Cape">Western Cape</option>
+					<option value="Limpopo">Limpopo</option>
+					<option value="North_West">North West</option>
+					<option value="KwaZulu_Natal">KwaZulu-Natal</option>
+					<option value="Mpumalanga">Mpumalanga</option>
+					<option value="Gauteng">Gauteng</option>
+				</select>
+				<label for="subject">Subject</label> 
+				<textarea id="subject" name="Subject" placeholder="Write Something ....." style="height:200px;"></textarea>
+				<input type="submit" value="Submit">
+				<div style="display:none" class="thankyou_message">
+					<!-- You can customize the thankyou message by editing the code below -->
+					<h2><em>Thanks</em> for contacting us! We will get back to you soon!</h2>
+				</div>
+			</form>
+			
+		</div></center>
+		<br>
+	</div>
+	<br>
+	<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+</body>
+</html>
