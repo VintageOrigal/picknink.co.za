@@ -2,11 +2,6 @@
 body {
 	background-color: darkcyan;
 }
-.container {
-	margin: auto;
-	width: 780px;
-	border: 2px solid black;
-}
 
 h1 {
 	color: white;
@@ -278,5 +273,8 @@ h3 {
 	text-decoration-line: underline;
 }
 .center {
+	border: 5px black;
 	margin: auto;
+	width: 50%;
+	padding: 10px;
 }
