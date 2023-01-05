@@ -95,7 +95,7 @@ li a:hover, .dropdown:hover .dropbtn {
 	width: 100%;
 }
 .mmenu {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	size: portrait;
 	font-family: sans-serif;
@@ -109,7 +109,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .header {
 	margin: auto;
-	width: 50%;
+	width: 100%;
 	padding: 10px;
 	text-align: center;
 	color: white;
@@ -173,7 +173,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .shop {
 	margin: auto;
-	width: 50%;
+	width: 100%;
 	padding: 10px;
 	text-align: center;
 	justify-content: center;
