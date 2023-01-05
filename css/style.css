@@ -3,6 +3,7 @@ body {
 	background-color: darkcyan;
 }
 .container {
+	float: center;
 	width: 780px;
 	border: 2px solid black;
 }
